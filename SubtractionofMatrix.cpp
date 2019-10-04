@@ -1,8 +1,8 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
-	clrscr();
+	
 	int arr1[3][3], arr2[3][3], arr3[3][3], sub, i, j;
 	cout<<"Enter 3*3 Array 1 Elements : ";
 	for(i=0; i<3; i++)
@@ -37,5 +37,5 @@ void main()
 		}
 		cout<<"\n";
 	}
-	getch();
+	return 0;
 }
